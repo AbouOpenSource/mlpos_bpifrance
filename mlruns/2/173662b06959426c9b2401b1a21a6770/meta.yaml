@@ -1,0 +1,15 @@
+artifact_uri: file:///home/abou/PycharmProjects/mlops_bpifrance/mlruns/2/173662b06959426c9b2401b1a21a6770/artifacts
+end_time: 1628280194426
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+name: ''
+run_id: 173662b06959426c9b2401b1a21a6770
+run_uuid: 173662b06959426c9b2401b1a21a6770
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1628280194361
+status: 3
+tags: []
+user_id: abou

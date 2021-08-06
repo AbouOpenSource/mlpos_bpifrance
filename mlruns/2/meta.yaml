@@ -1,0 +1,5 @@
+artifact_location: file:///home/abou/PycharmProjects/mlops_bpifrance/mlruns/2
+experiment_id: '2'
+lifecycle_stage: active
+name: wine_track
+tags: {}

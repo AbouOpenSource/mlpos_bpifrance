@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/c2d4e9c0d0e9471386bf8bb61cb6bab3/artifacts
+end_time: 1628273260190
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: c2d4e9c0d0e9471386bf8bb61cb6bab3
+run_uuid: c2d4e9c0d0e9471386bf8bb61cb6bab3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1628273260175
+status: 3
+tags: []
+user_id: abou

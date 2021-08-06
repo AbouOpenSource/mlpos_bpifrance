@@ -1,0 +1,4 @@
+artifact_location: file:///home/abou/PycharmProjects/mlops_bpifrance/mlruns/3
+experiment_id: '3'
+lifecycle_stage: active
+name: test
