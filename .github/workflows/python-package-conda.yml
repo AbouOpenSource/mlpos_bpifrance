@@ -1,4 +1,5 @@
-name: Python Package
+name: Python Package using Conda
+
 on: [push]
 
 jobs:
@@ -8,12 +9,13 @@ jobs:
       max-parallel: 5
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: iterative/setup-cml@v1
-      - run: |
-          # train will generate plot.png
-          python train.py
-
-          echo 'My first CML report' > report.md
-          cml-publish plot.png --md > report.md
-          cml-send-comment report.md
+    - uses: iterative/setup-cml@v1
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Test with pytest
+      run: |
+        conda install pytest
+        pytest
